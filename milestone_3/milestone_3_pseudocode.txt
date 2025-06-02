@@ -1,0 +1,35 @@
+variables
+
+INPUT: ask player if they want to play
+if INPUT = yes set playing to true
+elif INPUT = no set playing to false
+else set playing to false
+
+while playing is true:
+    INPUT: first question
+    if answer = "answer"
+        OUTPUT correct
+    elif answer = "awnser"
+        OUTPUT almost correct
+    else
+        OUTPUT incorrect
+    
+    INPUT: second question
+    if answer = "answer"
+        OUTPUT correct
+    elif answer = "awnser"
+        OUTPUT almost correct
+    else
+        OUTPUT incorrect
+    
+    INPUT: third question
+    if answer = "answer"
+        OUTPUT correct
+    elif answer = "awnser"
+        OUTPUT almost correct
+    else
+        OUTPUT incorrect
+    
+    set playing = false
+    OUTPUT finished quiz message .format(score)
+    (quit)

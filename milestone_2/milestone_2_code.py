@@ -16,6 +16,6 @@ elif any(i in numbers_and_characters for i in password) and len(password) >=8:
 else :
     print("Your password is strong! To make it stronger add numbers and/or special characters!")
 # reassures users that their password will not be stored
-print("Your password will now be deleted from our data storage")
+print("Your password will now be deleted from our data storage.")
 # deletes user's password
 del(password)
